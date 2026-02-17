@@ -1,0 +1,28 @@
+.footer {
+  text-align: center;
+  margin-top: var(--spacing-lg);
+}
+
+.footerText {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.footerText a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.footerText a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .footerText {
+    font-size: var(--font-size-sm);
+  }
+}

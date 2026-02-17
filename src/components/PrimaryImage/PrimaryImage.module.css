@@ -1,0 +1,30 @@
+.imageWrapper {
+  flex: 0 0 auto;
+  max-width: 550px;
+  width: 100%;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--border-radius);
+}
+
+@media (max-width: 1024px) {
+  .imageWrapper {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 768px) {
+  .imageWrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .imageWrapper {
+    max-width: 340px;
+  }
+}

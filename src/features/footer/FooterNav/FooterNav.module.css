@@ -1,0 +1,37 @@
+.navGroup {
+  display: flex;
+  flex: 2;
+  gap: var(--spacing-xxxl);
+  padding-left: var(--spacing-xxxl);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  min-width: max-content;
+}
+
+.rightList {
+  margin-left: 0;
+}
+
+.list li a {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-dark);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: var(--transition);
+}
+
+.list li a:hover {
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .navGroup {
+    padding-left: 0;
+    justify-content: center;
+    gap: var(--spacing-lg);
+  }
+}

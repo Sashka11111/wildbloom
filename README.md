@@ -1,18 +1,98 @@
-# React + Vite
+# WildBLOOM —Майстерня гончарних виробів
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Про Проект
 
-Currently, two official plugins are available:
+**WildBLOOM** — це веб-сайт майстерні, розроблений на React із використанням Vite. Проект демонструє сучасний підхід до побудови e-commerce платформи з чистою архітектурою та модульним дизайном.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Технологічний Стек
 
-## React Compiler
+- **React** — бібліотека для побудови UI
+- **Vite** — швидкий збирач для розробки та продакшену
+- **CSS Modules** — локальна область видимості для стилів, уникнення конфліктів імен
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Архітектура Проекту
 
-Note: This will impact Vite dev & build performances.
+```
+src/
+├── components/          # Переносні UI компоненти (Button, Checkbox, InputField тощо)
+├── features/            # Функціональні модулі за сценаріями (home, about, auth, footer, header)
+├── layout/              # Глобальні макетні компоненти (Header, Footer)
+├── pages/               # Сторінки (HomePage, AboutPage, FaqPage, LoginPage)
+├── assets/              # Статичні ресурси (зображення, стилі)
+│   ├── images/          # Зображення за категоріями (about, products, ui тощо)
+│   └── styles/          # Глобальні стилі (variables.css, global.css)
+├── hooks/               # React кастомні хуки
+├── App.jsx              # Головний компонент із маршрутизацією
+└── main.jsx             # Точка входу додатку
+```
 
-## Expanding the ESLint configuration
+## Ключові Компоненти
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Header & Footer
+
+- **Header**: логотип, навігація, пошук, іконки користувача та кошика
+- **Footer**: контактна інформація, посилання, соціальні мережі, авторські права
+
+### Сторінки
+
+- **HomePage**: геро-секція, каталог продуктів, колекції, натхнення
+- **AboutPage**: біографія майстрині, галерея
+- **FaqPage**: питання та відповіді
+- **LoginPage**: форма авторизації з валідацією
+
+### Секції на HomePage
+
+- **HeroSection**: головне зображення з текстом, центровано
+- **QuoteDivider**: цитата з градієнтом фону
+- **ProductGrid**: каталог з 8 товарами, карточками
+- **CollectionSection**: спеціальні колекції з прев'ю
+- **CategorySection**: категорії товарів
+- **InspirationalSection**: блог/натхнення
+
+### Auth компоненти
+
+- **AuthCard**: основна форма (email, пароль, чекбокс, посилання на реєстрацію)
+- **AuthImage**: зображення кераміки на авторизації
+- **AuthFooter**: посилання на реєстрацію
+- **InputField**: переносне поле вводу
+- **Checkbox**: переносна галочка з лейблом
+
+## Дизайнерські Рішення
+
+### CSS Змінні
+
+Централізоване управління дизайном через `variables.css`:
+
+```css
+--color-primary: #b58463 /* Основний теплий колір */ --color-accent: #7e7c73 /* Акцентний сірий */
+  --color-bg-light: #f7f1e3 /* Світлий фон */ --font-heading: 'Playfair Display' /* Шрифти для заголовків */
+  --spacing-lg: 1.5rem /* Відступи */ --border-radius: 8px /* Заокруглення */;
+```
+
+### Семантична Верстка
+
+- Правильна ієрархія заголовків (h1, h2, h3)
+- Semantic HTML (`<header>`, `<nav>`, `<main>`, `<footer>`)
+- Alt текст для зображень
+- Доступні форми з лейблами
+
+## Особливості
+
+✅ **Модульна структура** — кожен компонент у своїй папці з .jsx та .module.css  
+✅ **CSS Modules** — уникнення глобальних конфліктів стилів  
+✅ **Чистий код** — читаємий, добре організований  
+✅ **Переносні компоненти** — легко додавати нові сторінки  
+✅ **Градієнти та тені** — сучасний візуальний стиль
+
+## Запуск
+
+```bash
+# Встановлення залежностей
+npm install
+
+# Розробка
+npm run dev
+
+# Збірка для продакшену
+npm run build
+```

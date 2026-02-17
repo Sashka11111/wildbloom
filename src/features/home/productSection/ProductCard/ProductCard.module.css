@@ -1,0 +1,9 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}

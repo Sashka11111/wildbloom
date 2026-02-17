@@ -1,0 +1,36 @@
+.socials {
+  display: flex;
+  gap: var(--spacing-sm);
+
+  margin-top: var(--spacing-lg);
+}
+
+.circle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-dark);
+  transition: var(--transition);
+}
+
+.circle svg {
+  font-size: 14px;
+}
+
+.circle:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .socials {
+    justify-content: center;
+    margin-top: var(--spacing-md);
+  }
+}
