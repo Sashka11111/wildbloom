@@ -1,0 +1,97 @@
+.card {
+  display: flex;
+  max-width: 900px;
+  background-color: var(--color-white);
+  border-radius: 40px;
+  overflow: visible; /* важливо — щоб псевдоелемент виходив за межі */
+  box-shadow:
+    0 0 0 1px rgba(181, 132, 99, 0.12),
+    0 20px 40px rgba(181, 132, 99, 0.18),
+    0 0 60px 10px rgba(210, 150, 90, 0.18),
+    /* тепле світіння по бордеру */ 0 0 120px 30px rgba(230, 175, 110, 0.1); /* м'який зовнішній ореол */
+  margin: var(--spacing-xxxl) auto;
+  position: relative;
+  clip-path: none;
+}
+
+/* Зображення займає більше місця — співвідношення 3:2 */
+.imageSection {
+  flex: 3;
+  border-radius: 40px 0 0 40px;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+/* Теплий blob-ореол навколо картки — не заповнює весь фон */
+.card::before {
+  content: '';
+  position: absolute;
+  inset: -30px;
+  border-radius: 60px;
+  background: radial-gradient(
+    ellipse at 20% 50%,
+    rgba(190, 120, 60, 0.22) 0%,
+    rgba(220, 160, 90, 0.12) 40%,
+    transparent 70%
+  );
+  filter: blur(20px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Другий ореол з іншого боку */
+.card::after {
+  content: '';
+  position: absolute;
+  inset: -20px;
+  border-radius: 55px;
+  background: radial-gradient(
+    ellipse at 80% 60%,
+    rgba(230, 175, 120, 0.18) 0%,
+    rgba(200, 140, 80, 0.08) 50%,
+    transparent 70%
+  );
+  filter: blur(15px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.formSection {
+  flex: 2;
+  padding: var(--spacing-xxl);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xxl);
+  color: var(--color-text-dark);
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text-muted);
+}
+
+.submitBtn {
+  width: 100%;
+  padding: var(--spacing-md);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.submitBtn:hover {
+  background-color: var(--color-accent);
+}

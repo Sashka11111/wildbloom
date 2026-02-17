@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  padding: var(--spacing-sm);
+  color: var(--color-text-dark);
+  cursor: var(--cursor-clickable);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    color var(--transition),
+    transform var(--transition);
+}
+
+.iconButton:hover {
+  color: var(--color-primary);
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+
+.iconButton svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.5px;
+}

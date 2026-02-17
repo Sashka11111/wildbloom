@@ -1,0 +1,14 @@
+.moreBtn {
+  font-size: var(--font-size-base);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: var(--spacing-sm);
+  transition: var(--transition);
+}
+
+.moreBtn:hover {
+  color: var(--color-primary);
+}

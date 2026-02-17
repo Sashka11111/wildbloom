@@ -1,30 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react'
+
+import HomePage from './pages/HomePage/HomePage'
+import AboutPage from './pages/AboutPage/AboutPage'
+import FaqPage from './pages/FaqPage/FaqPage'
+import LoginPage from './pages/LoginPage/LoginPage'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [currentPage, setCurrentPage] = useState('home')
+
+  const navigate = (pageName) => {
+    setCurrentPage(pageName)
+    window.scrollTo(0, 0)
+  }
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'about':
+        return <AboutPage />
+      case 'faq':
+        return <FaqPage />
+      case 'auth':
+        return <LoginPage />
+      default:
+        return <HomePage />
+    }
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-    </>
+    <div className="app">
+      <nav>
+        <button onClick={() => navigate('home')}>Home</button>
+        <button onClick={() => navigate('about')}>About</button>
+        <button onClick={() => navigate('faq')}>FAQ</button>
+        <button onClick={() => navigate('auth')}>Login</button>
+      </nav>
+
+      <main>{renderPage()}</main>
+    </div>
   )
 }
 

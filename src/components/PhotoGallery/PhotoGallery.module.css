@@ -1,0 +1,17 @@
+.gallery {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.thumbWrapper {
+  width: 180px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

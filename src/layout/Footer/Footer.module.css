@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  background-color: var(--color-white);
+  border-top: 1px solid #eeeeee;
+}
+
+.topSection {
+  padding: var(--spacing-xxl) 0;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--spacing-xl);
+}
+
+.brandColumn {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}

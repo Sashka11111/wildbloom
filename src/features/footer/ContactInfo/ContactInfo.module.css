@@ -1,0 +1,21 @@
+.contacts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  text-align: left;
+  align-items: flex-start;
+  font-size: var(--font-size-base);
+  color: var(--color-text-dark);
+}
+
+.email {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contacts {
+    text-align: center;
+    align-items: center;
+  }
+}

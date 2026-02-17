@@ -1,0 +1,16 @@
+.faqSection {
+  width: 100%;
+  padding: var(--spacing-xl) 0;
+  background-color: var(--color-white);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}

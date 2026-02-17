@@ -1,0 +1,34 @@
+.list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: var(--spacing-xl);
+  align-items: center;
+}
+
+.list li {
+  display: inline-flex;
+}
+
+.list a {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-family: var(--font-primary);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: var(--color-text-dark);
+
+  transition: color var(--transition);
+  cursor: pointer;
+}
+
+.list a:hover {
+  color: var(--color-primary);
+}
+
+.list a.active {
+  color: var(--color-primary);
+}

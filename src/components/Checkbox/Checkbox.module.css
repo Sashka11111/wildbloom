@@ -1,0 +1,24 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox input {
+  cursor: pointer;
+  accent-color: var(--color-primary);
+}
+
+.checkbox input:hover {
+  accent-color: var(--color-accent);
+}
+
+@media (max-width: 480px) {
+  .checkbox {
+    font-size: 0.75rem;
+  }
+}
