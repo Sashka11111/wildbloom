@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1771448590405" clover="3.2.0">
+  <project timestamp="1771448590405" name="All files">
+    <metrics statements="112" coveredstatements="112" conditionals="197" coveredconditionals="115" methods="28" coveredmethods="28" elements="337" coveredelements="255" complexity="0" loc="112" ncloc="112" packages="27" files="27" classes="27"/>
+    <package name="components.AddToCartButton">
+      <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="AddToCartButton.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/AddToCartButton/AddToCartButton.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1113" type="cond" truecount="2" falsecount="1"/>
+      </file>
+    </package>
+    <package name="components.Checkbox">
+      <metrics statements="4" coveredstatements="4" conditionals="9" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="Checkbox.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/Checkbox/Checkbox.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="9" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="4" count="2268" type="cond" truecount="3" falsecount="2"/>
+        <line num="6" count="162" type="stmt"/>
+        <line num="7" count="324" type="cond" truecount="2" falsecount="2"/>
+        <line num="9" count="486" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.InputField">
+      <metrics statements="5" coveredstatements="5" conditionals="13" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="InputField.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/InputField/InputField.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="13" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="4" count="2016" type="cond" truecount="2" falsecount="1"/>
+        <line num="5" count="126" type="stmt"/>
+        <line num="6" count="252" type="cond" truecount="2" falsecount="4"/>
+        <line num="7" count="630" type="cond" truecount="2" falsecount="2"/>
+        <line num="8" count="378" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Logo">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Logo.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/Logo/Logo.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="735" type="cond" truecount="2" falsecount="1"/>
+        <line num="4" count="105" type="stmt"/>
+        <line num="7" count="105" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.PhotoGallery">
+      <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="PhotoGallery.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/PhotoGallery/PhotoGallery.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="1050" type="cond" truecount="2" falsecount="1"/>
+        <line num="5" count="105" type="stmt"/>
+        <line num="6" count="105" type="stmt"/>
+        <line num="10" count="210" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="210" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.PrimaryButton">
+      <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="PrimaryButton.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/PrimaryButton/PrimaryButton.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="2472" type="cond" truecount="2" falsecount="1"/>
+      </file>
+    </package>
+    <package name="components.PrimaryImage">
+      <metrics statements="4" coveredstatements="4" conditionals="16" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <file name="PrimaryImage.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/PrimaryImage/PrimaryImage.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="16" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="4" count="2835" type="cond" truecount="3" falsecount="2"/>
+        <line num="6" count="189" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="756" type="cond" truecount="4" falsecount="5"/>
+        <line num="8" count="567" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.SectionLink">
+      <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="SectionLink.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/SectionLink/SectionLink.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="729" type="cond" truecount="2" falsecount="1"/>
+        <line num="5" count="81" type="stmt"/>
+        <line num="7" count="81" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="162" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.SectionTitle">
+      <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="SectionTitle.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/SectionTitle/SectionTitle.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="648" type="cond" truecount="2" falsecount="1"/>
+        <line num="5" count="162" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.banner.BannerDescription">
+      <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="BannerDescription.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/banner/BannerDescription/BannerDescription.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="2160" type="cond" truecount="2" falsecount="1"/>
+      </file>
+    </package>
+    <package name="components.banner.BannerText">
+      <metrics statements="8" coveredstatements="8" conditionals="21" coveredconditionals="11" methods="1" coveredmethods="1"/>
+      <file name="BannerText.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/banner/BannerText/BannerText.jsx">
+        <metrics statements="8" coveredstatements="8" conditionals="21" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="7" count="3402" type="cond" truecount="2" falsecount="1"/>
+        <line num="8" count="189" type="cond" truecount="2" falsecount="2"/>
+        <line num="11" count="189" type="stmt"/>
+        <line num="12" count="378" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="378" type="cond" truecount="2" falsecount="2"/>
+        <line num="16" count="189" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="567" type="cond" truecount="2" falsecount="4"/>
+        <line num="21" count="945" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.banner.BannerTitle">
+      <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="BannerTitle.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/components/banner/BannerTitle/BannerTitle.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1992" type="cond" truecount="2" falsecount="1"/>
+      </file>
+    </package>
+    <package name="features.auth.AuthFooter">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="AuthFooter.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/auth/AuthFooter/AuthFooter.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1134" type="cond" truecount="2" falsecount="1"/>
+        <line num="6" count="162" type="stmt"/>
+        <line num="10" count="162" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.auth.AuthImage">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="AuthImage.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/auth/AuthImage/AuthImage.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="5" count="567" type="cond" truecount="2" falsecount="1"/>
+        <line num="6" count="81" type="stmt"/>
+        <line num="8" count="81" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.faq.FaqItem">
+      <metrics statements="10" coveredstatements="10" conditionals="21" coveredconditionals="14" methods="2" coveredmethods="2"/>
+      <file name="FaqItem.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/faq/FaqItem/FaqItem.jsx">
+        <metrics statements="10" coveredstatements="10" conditionals="21" coveredconditionals="14" methods="2" coveredmethods="2"/>
+        <line num="5" count="5790" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="330" type="stmt"/>
+        <line num="9" count="330" type="cond" truecount="3" falsecount="1"/>
+        <line num="10" count="660" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="600" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="330" type="cond" truecount="2" falsecount="3"/>
+        <line num="13" count="1320" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="270" type="stmt"/>
+        <line num="19" count="600" type="cond" truecount="2" falsecount="3"/>
+        <line num="20" count="1320" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.footer.ContactInfo">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="ContactInfo.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/footer/ContactInfo/ContactInfo.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1365" type="cond" truecount="2" falsecount="1"/>
+        <line num="6" count="195" type="stmt"/>
+        <line num="12" count="195" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.footer.Copyright">
+      <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="Copyright.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/footer/Copyright/Copyright.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="1296" type="cond" truecount="2" falsecount="1"/>
+        <line num="5" count="162" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="162" type="stmt"/>
+        <line num="9" count="162" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.footer.FooterNav">
+      <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="FooterNav.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/footer/FooterNav/FooterNav.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="5" count="952" type="cond" truecount="2" falsecount="1"/>
+        <line num="7" count="119" type="stmt"/>
+        <line num="8" count="119" type="stmt"/>
+        <line num="23" count="119" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="119" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.footer.SocialLinks">
+      <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="SocialLinks.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/footer/SocialLinks/SocialLinks.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="5" count="1755" type="cond" truecount="2" falsecount="1"/>
+        <line num="7" count="195" type="stmt"/>
+        <line num="8" count="195" type="stmt"/>
+        <line num="10" count="195" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="195" type="stmt"/>
+        <line num="13" count="195" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="195" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.header.NavLinks">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="NavLinks.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/header/NavLinks/NavLinks.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="924" type="cond" truecount="2" falsecount="1"/>
+        <line num="4" count="132" type="stmt"/>
+        <line num="16" count="132" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.header.UserActions">
+      <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="UserActions.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/header/UserActions/UserActions.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="5" count="2079" type="cond" truecount="2" falsecount="1"/>
+        <line num="6" count="231" type="stmt"/>
+        <line num="7" count="231" type="stmt"/>
+        <line num="9" count="231" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="231" type="stmt"/>
+        <line num="12" count="231" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="231" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.home.HeroSection">
+      <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="HeroSection.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/home/HeroSection/HeroSection.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="6" count="1296" type="cond" truecount="2" falsecount="1"/>
+        <line num="7" count="162" type="stmt"/>
+        <line num="8" count="162" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="162" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.home.QuoteDivider">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="QuoteDivider.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/home/QuoteDivider/QuoteDivider.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="567" type="cond" truecount="2" falsecount="1"/>
+        <line num="4" count="81" type="stmt"/>
+        <line num="6" count="81" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.home.categorySection.CategoryCard">
+      <metrics statements="7" coveredstatements="7" conditionals="13" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="CategoryCard.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/home/categorySection/CategoryCard/CategoryCard.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="13" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="7" count="1980" type="cond" truecount="3" falsecount="2"/>
+        <line num="9" count="132" type="stmt"/>
+        <line num="10" count="396" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="264" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="132" type="stmt"/>
+        <line num="15" count="132" type="cond" truecount="2" falsecount="2"/>
+        <line num="16" count="396" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.home.productSection.ProductCard">
+      <metrics statements="6" coveredstatements="6" conditionals="15" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <file name="ProductCard.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/home/productSection/ProductCard/ProductCard.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="15" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="7" count="2112" type="cond" truecount="3" falsecount="2"/>
+        <line num="9" count="132" type="stmt"/>
+        <line num="10" count="396" type="cond" truecount="2" falsecount="2"/>
+        <line num="11" count="396" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="132" type="cond" truecount="2" falsecount="2"/>
+        <line num="13" count="396" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.home.productSection.ProductImage">
+      <metrics statements="3" coveredstatements="3" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="ProductImage.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/home/productSection/ProductImage/ProductImage.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="2376" type="cond" truecount="3" falsecount="2"/>
+        <line num="5" count="264" type="stmt"/>
+        <line num="7" count="792" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.home.productSection.ProductInfo">
+      <metrics statements="5" coveredstatements="5" conditionals="12" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <file name="ProductInfo.jsx" path="C:/Users/Admin/Desktop/Університет/Веб/wildbloom/src/features/home/productSection/ProductInfo/ProductInfo.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="12" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="4" count="4485" type="cond" truecount="2" falsecount="1"/>
+        <line num="5" count="345" type="stmt"/>
+        <line num="6" count="690" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="690" type="cond" truecount="5" falsecount="2"/>
+        <line num="8" count="1035" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
