@@ -1,11 +1,17 @@
-import { defineConfig } from "cypress";
-
+import { defineConfig } from 'cypress'
+const codeCoverageTask = require('@cypress/code-coverage/task')
 export default defineConfig({
   allowCypressEnv: false,
+  experimentalRunAllSpecs: true,
 
-  e2e: {
+  component: {
+    devServer: {
+      framework: 'react',
+      bundler: 'vite',
+    },
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      codeCoverageTask(on, config)
+      return config
     },
   },
-});
+})
