@@ -1,35 +1,38 @@
 import React from 'react'
 import styles from './FooterNav.module.css'
+import { NavLink } from 'react-router-dom'
 
 const FooterNav = () => {
   return (
     <div className={styles.navGroup}>
       <ul className={styles.list}>
         <li>
-          <a href="/">ПРО МАЙСТЕРНЮ</a>
+          <NavLink to="/" end>
+            ГОЛОВНА
+          </NavLink>
         </li>
         <li>
-          <a href="/">КОНТАКТИ</a>
+          <NavLink to="/about">ПРО МАЙСТЕРНЮ</NavLink>
         </li>
         <li>
-          <a href="/">ВІДГУКИ</a>
+          <NavLink to="/">ВІДГУКИ</NavLink>
         </li>
         <li>
-          <a href="/">FAQ</a>
+          <NavLink to="/faq">FAQ</NavLink>
         </li>
       </ul>
       <ul className={`${styles.list} ${styles.rightList}`}>
         <li>
-          <a href="/">ПОЛІТИКА ДОСТАВКИ</a>
+          <NavLink to="/">ПОЛІТИКА ДОСТАВКИ</NavLink>
         </li>
         <li>
-          <a href="/">ПОЛІТИКА ПОВЕРНЕННЯ</a>
+          <NavLink to="/">ПОЛІТИКА ПОВЕРНЕННЯ</NavLink>
         </li>
         <li>
-          <a href="/">МАТЕРІАЛ & ДОГЛЯД</a>
+          <NavLink to="/">МАТЕРІАЛ & ДОГЛЯД</NavLink>
         </li>
         <li>
-          <a href="/">ПОЛІТИКА САЙТУ</a>
+          <NavLink to="/">ПОЛІТИКА САЙТУ</NavLink>
         </li>
       </ul>
     </div>

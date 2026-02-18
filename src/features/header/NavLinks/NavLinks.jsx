@@ -1,15 +1,17 @@
 import styles from './NavLinks.module.css'
-
+import { NavLink } from 'react-router-dom'
 const NavLinks = () => (
   <ul className={styles.list}>
     <li>
-      <a href="/">ГОЛОВНА</a>
+      <NavLink to="/" end>
+        ГОЛОВНА
+      </NavLink>
     </li>
     <li>
-      <a href="/about">ПРО МАЙСТЕРНЮ</a>
+      <NavLink to="/about">ПРО МАЙСТЕРНЮ</NavLink>
     </li>
     <li>
-      <a href="/faq">FAQ</a>
+      <NavLink to="/faq">FAQ</NavLink>
     </li>
   </ul>
 )
