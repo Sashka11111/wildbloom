@@ -1,11 +1,12 @@
 import { useQuery } from '@tanstack/react-query'
+import api from '../api'
 
 export const useProducts = () => {
   return useQuery({
     queryKey: ['products'],
-    queryFn: async () => [
-      { id: 1, name: 'ЧАШКА «ДЮНА»', price: 90 },
-      { id: 2, name: 'ТАРІЛКА «РАННЄ ЛІТО»', price: 78 },
-    ],
+    queryFn: async () => {
+      const response = await api.get('/products')
+      return response.data
+    },
   })
 }
